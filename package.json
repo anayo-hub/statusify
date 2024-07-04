@@ -1,0 +1,31 @@
+{
+  "name": "statusify",
+  "version": "1.0.0",
+  "description": "A simple utility to set status messages on a web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anayo-hub/statusify.git"
+  },
+  "keywords": [
+    "status",
+    "notification",
+    "message",
+    "alert",
+    "status-message",
+    "notify",
+    "flash-message",
+    "timeout",
+    "user-feedback",
+    "ui"
+  ],
+  "author": "Crescent Anayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anayo-hub/statusify/issues"
+  },
+  "homepage": "https://github.com/anayo-hub/statusify#readme"
+}
