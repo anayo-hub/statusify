@@ -1,47 +1,4 @@
-The issue with your README file appearing with garbled characters on the npm website is likely due to encoding issues. To fix this, ensure your README file is saved with UTF-8 encoding without a BOM (Byte Order Mark). Here's how to check and fix this issue:
 
-### Using a Text Editor (VS Code)
-
-1. **Open the README.md file in VS Code**:
-
-   - Open your README.md file in Visual Studio Code.
-
-2. **Check and change encoding**:
-
-   - Look at the bottom right corner of the VS Code window. You will see the current encoding displayed (e.g., "UTF-8", "UTF-8 with BOM").
-   - If it shows "UTF-8 with BOM" or any other encoding, click on it and select "Save with Encoding".
-   - Choose "UTF-8" from the list.
-
-3. **Save the file**:
-   - Save the file after changing the encoding to UTF-8.
-
-### Using a Text Editor (Notepad++)
-
-1. **Open the README.md file in Notepad++**:
-
-   - Open your README.md file in Notepad++.
-
-2. **Change encoding**:
-
-   - Go to the "Encoding" menu.
-   - Select "Convert to UTF-8" (not "Convert to UTF-8-BOM").
-
-3. **Save the file**:
-   - Save the file after changing the encoding.
-
-### After Ensuring Correct Encoding
-
-Once you have ensured the README file is saved with UTF-8 encoding without BOM, you can proceed with the following steps to update the package on npm:
-
-1. **Re-publish the package**:
-   - Make sure your package.json and other necessary files are in place.
-   - Run the npm publish command to re-publish your package with the corrected README file.
-
-### Example README.md Content
-
-Here's an example of how your README.md content should look:
-
-````markdown
 # Statusify
 
 A versatile JavaScript utility for displaying status messages with styling and timeout options. Ideal for providing feedback in the browser console, HTML elements, or custom logging targets.
