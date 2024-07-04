@@ -1,4 +1,3 @@
-
 # Statusify
 
 A versatile JavaScript utility for displaying status messages with styling and timeout options. Ideal for providing feedback in the browser console, HTML elements, or custom logging targets.
@@ -10,7 +9,6 @@ You can use this module directly without installation if it is in your project's
 ```sh
 npm install statusify
 ```
-````
 
 ## Usage
 
